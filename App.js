@@ -11,7 +11,7 @@ const App = () => {
   const [isSwitchOn, setSwitchOn] = useState(false);
 
   const Submit = () => {
-    ToastAndroid.show(`Nazwa: ${name}\nPoziom magiczny: ${powerLevel}\nZainteresowanias: ${interests}\nCzy jest czarodziejem?: ${isSwitchOn}\nZapoznany z regulaminem?: ${radioValue}`, ToastAndroid.LONG);
+    ToastAndroid.show(`Nazwa: ${name}\nPoziom magiczny: ${powerLevel}\nZainteresowanias: ${interests}\nCzy jest czarodziejem?: ${isSwitchOn}\n`, ToastAndroid.LONG);
   };
 
   return (
